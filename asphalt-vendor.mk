@@ -9,6 +9,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/asphalt/proprietary/odm/etc/aac_richtap_l.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap_l.config \
     vendor/lenovo/asphalt/proprietary/odm/etc/aac_richtap_r.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap_r.config \
     vendor/lenovo/asphalt/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/lenovo/asphalt/proprietary/recovery/root/lib/firmware/novatek_spi_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_spi_fw.bin \
+    vendor/lenovo/asphalt/proprietary/recovery/root/lib/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_fw.bin \
+    vendor/lenovo/asphalt/proprietary/recovery/root/lib/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_mp.bin \
+    vendor/lenovo/asphalt/proprietary/recovery/root/lib/firmware/novatek_ts_ultra_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_ultra_fw.bin \
+    vendor/lenovo/asphalt/proprietary/recovery/root/lib/firmware/novatek_ts_ultra_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_ultra_mp.bin \
     vendor/lenovo/asphalt/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/lenovo/asphalt/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/lenovo/asphalt/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
